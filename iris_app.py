@@ -5,7 +5,7 @@ import numpy as np
 # Load your trained model
 model = joblib.load("knn_model.pkl")
 
-st.title("🌸 Iris Flower Classifier")
+st.title("🌸 Iris Flower Classifier 🌸")
 
 # Sliders for input features
 sl = st.slider("Sepal Length (cm)", 4.0, 8.0, 5.1)
